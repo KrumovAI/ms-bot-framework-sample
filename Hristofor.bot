@@ -1,0 +1,65 @@
+{
+    "name": "Hristofor",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "a9af3043-0049-4636-8955-b8df3c221f88",
+            "id": "1",
+            "name": "Hristofor",
+            "resourceGroup": "RND.ai",
+            "serviceName": "Hristofor",
+            "subscriptionId": "4550107a-893b-4274-a26f-b26050181b4d",
+            "tenantId": "d49e6610-3e56-4ecf-b77c-6978fe3a8f1a"
+        },
+        {
+            "type": "blob",
+            "connectionString": "lqev4BhhEABYPWwDvCTxLw==!XQXCtUh5/JmNqU26FOT75KBEJebxwXVezdMs2cKont/Z/ZS6vAl8AsgtS94N0r3Q0DS9NTlHDuEosAvm+sncm2qpM18kizs0wYh5isR2eGvfUKhs7jWoDPFB2+HRoSMujn3Flu8iPHli7s0/MeNswiNJTIVARTd4TtZwps0NIKk2CpTTSeE6iKU4hJ3Z+mxop0+OvFaQZwL9LgaDTBOZGQ==",
+            "id": "2",
+            "resourceGroup": "RND.ai",
+            "serviceName": "hristofor90ed",
+            "subscriptionId": "4550107a-893b-4274-a26f-b26050181b4d",
+            "tenantId": "d49e6610-3e56-4ecf-b77c-6978fe3a8f1a"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "3",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "a9af3043-0049-4636-8955-b8df3c221f88",
+            "appPassword": "VNxFRjvEFr/Ip78kSKQu6Q==!frQX8UlZhXvGNwAGOgucgnOJOKjEfHnVS97YM+9aNWs=",
+            "endpoint": "https://hristofor.azurewebsites.net/api/messages",
+            "id": "4",
+            "name": "production"
+        },
+        {
+            "type": "appInsights",
+            "apiKeys": {},
+            "applicationId": "8681e818-62de-405d-a1e8-5e47192d6c0d",
+            "id": "5",
+            "instrumentationKey": "YFN5fVQKlhSw3CFiWs/Z3g==!0zhJXoBvQtatHLdAgV5WIODsL2S6D5L9SyLHV3/IuQh/bOQgkAYB5nH6L+Gvnl1X",
+            "resourceGroup": "RND.ai",
+            "serviceName": "Hristofor2hjg6p",
+            "subscriptionId": "4550107a-893b-4274-a26f-b26050181b4d",
+            "tenantId": "d49e6610-3e56-4ecf-b77c-6978fe3a8f1a"
+        },
+        {
+            "type": "luis",
+            "appId": "b754a3bd-88f8-4b59-8ee0-dc891a85ac1b",
+            "authoringKey": "FzWG9xVL8loqCii88QTs6g==!th1y4wJZimtwsF3oeYSLj9/UQd5K5lBwnY1b6YLjWtNPkkhjP1oFYGNwyK2YJ1oc",
+            "id": "6",
+            "name": "Hristoforus",
+            "region": "westeurope",
+            "version": "0.1"
+        }
+    ],
+    "padlock": "2aH+zsm6ygmmLUWagLuJNg==!krg+aFnopX/Lg6nVDJC1m1r5mlg+PyYRWshQQDZQNQm4K6jHLfVtOzvSXWpBEfQf",
+    "version": "2.0",
+    "path": "C:\\Projects\\AI\\Bots\\Hristofor\\Hristofor.bot",
+    "overrides": null
+}
