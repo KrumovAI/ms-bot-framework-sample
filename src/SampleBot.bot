@@ -1,0 +1,65 @@
+{
+    "name": "BOT_NAME",
+    "description": "",
+    "services": [
+      {
+        "type": "abs",
+        "appId": "AZURE_APP_ID",
+        "id": "1",
+        "name": "BOT_NAME",
+        "resourceGroup": "RESOURCE_GROUP",
+        "serviceName": "SERVICE_NAME",
+        "subscriptionId": "BOT_SUBSCRIPTION_ID",
+        "tenantId": "TENANT_ID"
+      },
+        {
+            "type": "blob",
+            "connectionString": "CONNECTION_STRING",
+            "id": "2",
+            "resourceGroup": "RESOURCE_GROUP",
+            "serviceName": "SERVICE_NAME",
+            "subscriptionId": "BOT_SUBSCRIPTION_ID",
+            "tenantId": "TENANT_ID"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "3",
+            "name": "development"
+        },
+      {
+        "type": "endpoint",
+        "appId": "AZURE_APP_ID",
+        "appPassword": "AZURE_APP_PASSWORD",
+        "endpoint": "PUBLIC_MESSAGING_ENDPOINT/api/messages",
+        "id": "4",
+        "name": "production"
+      },
+      {
+        "type": "appInsights",
+        "apiKeys": {},
+        "applicationId": "INSIGHTS_APP_ID",
+        "id": "5",
+        "instrumentationKey": "INSIGHTS_INSTRUMENTATION_KEY",
+        "resourceGroup": "RESOURCE_GROUP",
+        "serviceName": "INSIGHTS_SERVICE_NAME",
+        "subscriptionId": "INSIGHTS_SUBSRIPTION_ID",
+        "tenantId": "TENANT_ID"
+      },
+        {
+            "type": "luis",
+            "appId": "LUIS_APP_ID",
+            "authoringKey": "LUIS_AUTHORING_KEY",
+            "id": "6",
+            "name": "LUIS_APP_NAME",
+            "region": "LUIS_APP_REGION",
+            "version": "0.1"
+        }
+    ],
+    "padlock": "2aH+zsm6ygmmLUWagLuJNg==!krg+aFnopX/Lg6nVDJC1m1r5mlg+PyYRWshQQDZQNQm4K6jHLfVtOzvSXWpBEfQf",
+    "version": "2.0",
+    "path": "PATH_TO_YOUR_BOT",
+    "overrides": null
+}

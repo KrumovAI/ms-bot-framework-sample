@@ -1,0 +1,21 @@
+BOT_NAME, // The name of the bot
+
+AZURE_APP_ID, // Get from the Azure AD app
+RESOURCE_GROUP, // Get from the azure portal bot overview
+SERVICE_NAME, // Get from the Web service created with the bot file
+BOT_SUBSCRIPTION_ID, // Get from the azure portal bot overview
+TENANT_ID // Get from the Azure AD app
+
+CONNECTION_STRING, // Get from the Azure storage resource
+
+PUBLIC_MESSAGING_ENDPOINT/api/messages, // Get from the azure portal bot overview
+
+INSIGHTS_APP_ID, // Get from Azure Bot settings
+INSIGHTS_INSTRUMENTATION_KEY, // Get from Azure Bot settings
+INSIGHTS_SERVICE_NAME, // Get from Azure Bot settings
+INSIGHTS_SUBSRIPTION_ID, // Get from Azure Bot settings
+
+LUIS_APP_ID, // Get from LUIS
+LUIS_AUTHORING_KEY, // Get from LUIS
+LUIS_APP_NAME, // Get from LUIS
+LUIS_APP_REGION, // Get from LUIS
